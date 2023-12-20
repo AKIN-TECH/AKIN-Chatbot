@@ -1,0 +1,1042 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there", "Hello", "Hay", "What's up"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "see ya!", "Chao","Bbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "wow"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you", "What are you", "Who you are" ],
+     "responses": ["I.m AKIN, your bot assistant", "I'm AKIN, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name","your name"],
+    "responses": ["You can call me AKIN.", "I'm AKIN!", "Just call me as AKIN"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me", "give me a hand please", "Can you help", "What can you do for me", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {
+        "tag": "living_room",
+        "patterns": ["What is the primary purpose of the space", "What is the main purpose of this room", "What is the space used for"],
+        "responses": ["The primary purpose of the space is for a living room."]
+    },
+    {
+        "tag": "flooring",
+        "patterns": ["Which flooring material is commonly used in living rooms", "What type of flooring is popular for living rooms", "What is a common choice for living room flooring"],
+        "responses": ["Hardwood flooring is commonly used in living rooms."]
+    },
+    {
+        "tag": "bedroom_lighting",
+        "patterns": ["What type of lighting is suitable for a bedroom", "What kind of lights should I use in a bedroom", "Which lighting is recommended for bedrooms"],
+        "responses": ["Table lamps are suitable for bedroom lighting."]
+    },
+    {
+        "tag": "bedroom_wall_color",
+        "patterns": ["Which wall color promotes a calm atmosphere in a bedroom", "What color is calming for bedroom walls", "What wall color is ideal for a peaceful bedroom"],
+        "responses": ["Cool blue is a wall color that promotes a calm atmosphere in a bedroom."]
+    },
+    {
+        "tag": "kitchen_countertops",
+        "patterns": ["What is the ideal height for kitchen countertops", "How high should kitchen countertops be", "What's the recommended height for kitchen counters"],
+        "responses": ["The ideal height for kitchen countertops is 0.9 meters."]
+    },
+    {
+        "tag": "kitchen_countertop_material",
+        "patterns": ["Which material is commonly used for kitchen countertops", "What is a popular choice for kitchen countertop material", "What material is often used for kitchen counters"],
+        "responses": ["Quartz is commonly used for kitchen countertops."]
+    },
+    {
+        "tag": "home_office_seating",
+        "patterns": ["What type of seating is suitable for a home office", "What kind of chair is recommended for a home office", "What seating works well in a home office"],
+        "responses": ["An executive chair is suitable for a home office."]
+    },
+    {
+        "tag": "modern_kitchen_color_scheme",
+        "patterns": ["Which color scheme is commonly used in a modern kitchen", "What is a popular color scheme for modern kitchens", "What colors are often used in modern kitchen design"],
+        "responses": ["A monochromatic color scheme is commonly used in modern kitchens."]
+    },
+    {
+        "tag": "kitchen_work_zones",
+        "patterns": ["What is the recommended distance between kitchen work zones", "How far apart should kitchen work areas be", "What is the ideal spacing between kitchen work zones"],
+        "responses": ["The recommended distance between kitchen work zones is 1.2 meters."]
+    },
+    {
+        "tag": "window_treatment",
+        "patterns": ["Which window treatment provides privacy while allowing natural light", "What kind of window covering offers privacy and lets in light", "What is a good window treatment for both privacy and natural light"],
+        "responses": ["Sheer curtains provide privacy while allowing natural light."]
+    },
+    {
+        "tag": "bathroom_vanities",
+        "patterns": ["What is the standard height for bathroom vanities", "How high should bathroom vanities be", "What is the recommended height for bathroom sink cabinets"],
+        "responses": ["The standard height for bathroom vanities is 0.8 meters."]
+    },
+    {
+        "tag": "basement_ceiling_height",
+        "patterns": ["What is the recommended ceiling height for a basement", "How high should the ceiling be in a basement", "What is the ideal basement ceiling height"],
+        "responses": ["The recommended ceiling height for a basement is 2.5 meters."]
+    },
+    {
+        "tag": "basement_flooring",
+        "patterns": ["Which type of flooring is suitable for a basement", "What flooring material is appropriate for basements", "What kind of flooring is recommended for basements"],
+        "responses": ["Vinyl flooring is suitable for a basement."]
+    },
+    {
+        "tag": "walk_in_closet",
+        "patterns": ["What is the purpose of a walk-in closet", "Why do people have walk-in closets", "What is the use of a walk-in closet"],
+        "responses": ["The purpose of a walk-in closet is for storage."]
+    },
+    {
+        "tag": "dining_room_furniture",
+        "patterns": ["Which furniture is essential for a dining room", "What kind of furniture should I have in my dining room", "What are the must-have pieces of furniture for a dining room"],
+        "responses": ["A buffet table is essential for a dining room."]
+    },
+    {
+        "tag": "space_efficient_staircase",
+        "patterns": ["Which type of staircase is space-efficient", "What kind of stairs save space", "What type of staircase is suitable for limited space"],
+        "responses": ["A spiral staircase is space-efficient."]
+    },
+    {
+        "tag": "reading_nook",
+        "patterns": ["What is the primary purpose of a reading nook", "Why do people create reading nooks", "What is the main function of a reading nook"],
+        "responses": ["The primary purpose of a reading nook is for relaxation."]
+    },
+    {
+        "tag": "small_bedroom_bed",
+        "patterns": ["Which type of bed is suitable for a small bedroom", "What kind of bed works well in a compact bedroom", "What bed is recommended for limited space bedrooms"],
+        "responses": ["A twin bed is suitable for a small bedroom."]
+    },
+    {
+        "tag": "sunlight_exposure",
+        "patterns": ["Where is the best location for optimal sunlight exposure", "What is the ideal spot for getting the most sunlight", "Where should I place my room for maximum sunlight"],
+        "responses": ["The best location for optimal sunlight exposure is to the south."]
+    },
+    {
+        "tag": "privacy_between_buildings",
+        "patterns": ["What is the ideal distance between neighboring buildings for privacy", "How far apart should buildings be for privacy", "What is the recommended distance between adjacent structures for privacy"],
+        "responses": ["The ideal distance between neighboring buildings for privacy can vary based on factors such as local building codes, zoning regulations, and the specific needs and preferences of property owners. In general, larger setbacks or distances between buildings can enhance privacy by reducing direct lines of sight into neighboring spaces."]
+    },
+    {
+        "tag": "main_entrance_room",
+        "patterns": ["Which room is typically located near the main entrance", "What room is commonly found near the entrance", "What is usually near the main entrance"],
+        "responses": ["The living room is typically located near the main entrance."]
+    },
+    {
+        "tag": "space_saving_furniture",
+        "patterns": ["What is a space-saving furniture solution for small bedrooms", "How can I save space in a small bedroom", "What furniture is ideal for compact bedrooms"],
+        "responses": ["A Murphy bed is a space-saving furniture solution for small bedrooms."]
+    },
+    {
+        "tag": "vertical_closet_storage",
+        "patterns": ["What storage solution maximizes vertical space in a closet", "How can I make the most of vertical space in a closet", "What maximizes storage in a closet vertically"],
+        "responses": ["Shelves are a storage solution that maximizes vertical space in a closet."]
+    },
+    {
+        "tag": "easy_to_clean_flooring",
+        "patterns": ["What type of flooring is easy to clean and maintain in high-traffic areas", "Which flooring is low-maintenance for high-traffic areas", "What flooring is best for areas with a lot of foot traffic"],
+        "responses": ["Tile flooring is easy to clean and maintain in high-traffic areas."]
+    },
+    {
+        "tag": "slope_percentage",
+        "patterns": ["What is the preferred slope percentage for effective drainage", "What slope percentage is ideal for good drainage", "How steep should the slope be for effective drainage"],
+        "responses": ["The preferred slope percentage for effective drainage is 15%."]
+    },
+    {
+        "tag": "open_floor_plan_definition",
+        "patterns": ["In an open floor plan, what helps define different zones without using walls", "How are zones defined in an open floor plan", "What defines areas in an open floor plan without walls"],
+        "responses": ["Area rugs help define different zones in an open floor plan without using walls."]
+    },
+    {
+        "tag": "modern_architecture_style",
+        "patterns": ["Which architectural style emphasizes open floor plans and large windows", "What architectural style features open floor plans and big windows", "What style of architecture prioritizes open floor plans and large windows"],
+        "responses": ["Modern architecture emphasizes open floor plans and large windows."]
+    },
+    {
+        "tag": "standard_ceiling_height",
+        "patterns": ["What is the ideal height for a standard residential ceiling", "How high should a standard home ceiling be", "What is the recommended height for residential ceilings"],
+        "responses": ["The ideal height for a standard residential ceiling is 2.44 meters."]
+    },
+    {
+        "tag": "circulation_in_space_planning",
+        "patterns": ["In space planning, what does the term 'circulation' refer to", "What is meant by 'circulation' in space planning", "What does 'circulation' mean in the context of space planning"],
+        "responses": ["Circulation in space planning refers to the movement within a space."]
+    },
+    {
+        "tag": "ground_floor_laundry_room",
+        "patterns": ["Which room is typically located on the ground floor for accessibility", "What room is usually found on the ground floor for convenience", "What is commonly placed on the ground floor for easy access"],
+        "responses": ["The laundry room is typically located on the ground floor for accessibility."]
+    },
+    {
+        "tag": "zoning_plan_in_design",
+        "patterns": ["What is the purpose of a zoning plan in architectural design", "Why do architects use zoning plans in their designs", "What does a zoning plan achieve in architectural design"],
+        "responses": ["A zoning plan in architectural design helps in the division of spaces for specific functions."]
+    },
+    {
+        "tag": "site_analysis_importance",
+        "patterns": ["What is the importance of a site analysis in the early stages of design", "Why is site analysis essential in the early design phases", "What role does site analysis play in the initial design process"],
+        "responses": ["A site analysis in the early stages of design is important for understanding environmental factors."]
+    },
+    {
+        "tag": "skylight_architectural_feature",
+        "patterns": ["Which architectural feature provides natural ventilation and daylighting", "What feature in architecture offers natural light and ventilation", "What provides both natural ventilation and daylighting in buildings"],
+        "responses": ["A skylight is an architectural feature that provides natural ventilation and daylighting."]
+    },
+    {
+        "tag": "window_area_ratio",
+        "patterns": ["What is the ideal proportion of window area to floor area for good daylighting", "How much window area is recommended for effective daylighting", "What window-to-floor area ratio is best for good daylighting"],
+        "responses": ["The ideal proportion of window area to floor area for good daylighting is 15-20%."]
+    },
+    {
+        "tag": "golden_ratio_in_architecture",
+        "patterns": ["What is the significance of the 'golden ratio' in architecture", "Why is the 'golden ratio' important in architectural design", "What role does the 'golden ratio' play in architecture"],
+        "responses": ["The 'golden ratio' is significant in architecture for achieving aesthetic harmony."]
+    },
+    {
+        "tag": "kitchen_work_triangle",
+        "patterns": ["In kitchen design, what is the work triangle", "What does the term 'kitchen work triangle' refer to", "What is the concept behind the kitchen work triangle"],
+        "responses": ["The kitchen work triangle refers to the relationship between the stove, sink, and refrigerator in kitchen design."]
+    },
+    {
+        "tag": "home_accessibility_design",
+        "patterns": ["What is the primary consideration when designing a home for accessibility", "What is the most important factor in accessible home design", "What should be prioritized in designing an accessible home"],
+        "responses": ["The primary consideration when designing a home for accessibility is following universal design principles."]
+    },
+    {
+        "tag": "open_plan_residential_design",
+        "patterns": ["What does the term open plan refer to in residential design", "How is open plan defined in residential architecture", "What is the concept of open plan in home design", "What is open plan"],
+        "responses": ["'Open plan' in residential design signifies the absence of interior walls."]
+    },
+    {
+        "tag": "windy_climate_home_design",
+        "patterns": ["What's the primary consideration in home design for windy climates", "What should be the focus in designing homes for windy areas", "What is important in home design for windy regions"],
+        "responses": ["In home design for windy climates, the primary focus is on incorporating windbreaks."]
+    },
+    {
+        "tag": "daylighting_window_area_ratio",
+        "patterns": ["What's the recommended ratio of window area to floor area for good daylighting", "How should window area be proportioned for effective daylighting", "What is the ideal window-to-floor area ratio for daylighting"],
+        "responses": ["The recommended ratio of window area to floor area for good daylighting is 15-20%."]
+    },
+    {
+        "tag": "plinth_in_architecture",
+        "patterns": ["What's the whole story behind a plinth in architecture", "What is the purpose of a plinth in building design", "Why is a plinth used in architectural structures"],
+        "responses": ["In architectural terms, the purpose of a plinth is structural support."]
+    },
+    {
+        "tag": "cross_ventilation_hot_climate",
+        "patterns": ["What is the primary consideration in designing a home for a hot climate", "What should be the focus in home design for hot climates", "What is important in home design for regions with hot weather"],
+        "responses": ["The primary consideration in designing a home for a hot climate is cross-ventilation."]
+    },
+    {
+        "tag": "sun_study_site_analysis",
+        "patterns": ["What is the importance of a sun study in site analysis", "Why is a sun study conducted in site analysis", "What does a sun study help understand in site analysis"],
+        "responses": ["A sun study in site analysis is important for understanding sunlight patterns."]
+    },
+    {
+        "tag": "site_plan_in_design_process",
+        "patterns": ["What is the importance of a site plan in the design process", "Why is a site plan crucial in the overall design process", "What role does a site plan play in the design process"],
+        "responses": ["A site plan in the design process is important for understanding site features and constraints."]
+    },
+    {
+        "tag": "insulation_cold_climate",
+        "patterns": ["What is the primary consideration in designing a home for a cold climate", "What should be the focus in home design for cold climates", "What is important in home design for regions with cold weather"],
+        "responses": ["In a cold climate, heavy insulation is a primary consideration in home design."]
+    },
+    {
+        "tag": "windy_climate_home_design",
+        "patterns": ["What is the primary consideration in designing a home for a windy climate", "What should be the focus in home design for windy climates", "What is important in home design for regions with strong winds"],
+        "responses": ["In home design for a windy climate, the primary consideration is incorporating windbreaks."]
+    },
+    {
+        "tag": "shadow_study_site_analysis",
+        "patterns": ["What is the significance of a shadow study in site analysis", "Why is a shadow study conducted in site analysis", "What does a shadow study help determine in site analysis"],
+        "responses": ["A shadow study in site analysis is significant for understanding window placement."]
+    },
+    {
+        "tag": "daylighting_strategy_sustainable_architecture",
+        "patterns": ["What is the function of a daylighting strategy in sustainable architecture", "Why is a daylighting strategy important in sustainable design", "What role does daylighting optimization play in sustainable architecture"],
+        "responses": ["A daylighting strategy in sustainable architecture aims to optimize natural light in buildings."]
+    },
+    {
+        "tag": "cross_ventilation_humid_climate",
+        "patterns": ["What is the primary consideration in designing a home for a humid climate", "What should be the focus in home design for humid climates", "What is important in home design for regions with high humidity"],
+        "responses": ["In designing a home for a humid climate, cross-ventilation is a primary consideration."]
+    },
+    {
+        "tag": "crenellation_in_building_design",
+        "patterns": ["What is the role of a crenellation in building design", "Why are crenellations used in architectural design", "What purpose does a crenellation serve in buildings"],
+        "responses": ["The role of a crenellation in building design is privacy control."]
+    },
+    {
+        "tag": "living_room_flooring_preference",
+        "patterns": ["So, what kind of flooring is usually picked for living rooms", "What is the popular choice for living room flooring", "What is the common flooring material for living spaces"],
+        "responses": ["Classic flooring materials for living spaces often include hardwood, laminate, or ceramic tiles."]
+    },
+    {
+        "tag": "home_office_seating_suggestion",
+        "patterns": ["Any thoughts on the suitable seating for a home office", "What is a good choice for seating in a home office", "What type of chair is recommended for a home office"],
+        "responses": ["An executive chair is a suitable choice for seating in a home office."]
+    },
+    {
+        "tag": "modern_kitchen_color_scheme_preference",
+        "patterns": ["When it comes to modern kitchens, which color scheme is often preferred", "What color scheme is popular in modern kitchen design", "What colors are commonly used in modern kitchen decor"],
+        "responses": ["A monochromatic color scheme is often preferred in modern kitchens."]
+    },
+    {
+        "tag": "site_plan_importance_in_design",
+        "patterns": ["What's the importance of a site plan in the overall design process", "Why is a site plan crucial in the design process", "What does a site plan contribute to the design process"],
+        "responses": ["A site plan in the overall design process is crucial for understanding site features and constraints."]
+    },
+    {
+        "tag": "kitchen_work_triangle_concept",
+        "patterns": ["What's the concept behind the work triangle in kitchen design", "Why is the work triangle important in kitchen layout", "What does the term 'kitchen work triangle' signify"],
+        "responses": ["The concept behind the work triangle in kitchen design is the relationship between the stove, sink, and refrigerator."]
+    },
+    {
+        "tag": "open_plan_residential_design_definition",
+        "patterns": ["Ever thought about what 'open plan' signifies in residential design", "What does 'open plan' mean in residential architecture", "How is 'open plan' defined in home design"],
+        "responses": ["'Open plan' in residential design signifies the absence of interior walls."]
+    },
+    {
+        "tag": "windy_climate_home_design_focus",
+        "patterns": ["When it comes to windy climates, what's the primary focus in home design", "What should be the main consideration in home design for windy areas", "What is important in home design for regions with strong winds"],
+        "responses": ["In home design for windy climates, the primary focus is on incorporating windbreaks."]
+    },
+    {
+        "tag": "window_area_ratio_recommendation",
+        "patterns": ["What's the recommended ratio of window area to floor area for good daylighting", "How should window area be proportioned for effective daylighting", "What is the ideal window-to-floor area ratio for daylighting"],
+        "responses": ["The recommended ratio of window area to floor area for good daylighting is 15-20%."]
+    },
+    {
+        "tag": "plinth_in_architecture",
+        "patterns": ["What's the whole story behind a plinth in architecture", "What is the purpose of a plinth in architectural design", "Tell me about plinths in architecture."],
+        "responses": ["A plinth in architecture serves as a structural support element."]
+    },
+    {
+        "tag": "classic_flooring_for_living_spaces",
+        "patterns": ["Any classic flooring material people prefer for their living spaces", "What are classic flooring materials for living spaces", "What flooring is usually picked for living rooms"],
+        "responses": ["Classic flooring materials for living spaces often include hardwood, laminate, or ceramic tiles."]
+    },
+    {
+        "tag": "standout_flooring_for_living_areas",
+        "patterns": ["Any flooring material that's a standout for living areas", "What flooring materials stand out for living areas", "What's a standout flooring option for living spaces"],
+        "responses": ["Standout flooring materials for living areas can include options like natural stone, patterned tiles, or reclaimed wood."]
+    },
+    {
+        "tag": "bedroom_lighting",
+        "patterns": ["Any specific type of lighting that's perfect for bedrooms", "What type of lighting is suitable for bedrooms", "What's the ideal lighting style for a bedroom"],
+        "responses": ["Soft and warm lighting, such as bedside lamps or wall sconces, is perfect for bedrooms."]
+    },
+    {
+        "tag": "relaxing_bedroom_lighting",
+        "patterns": ["What's the suitable lighting style for a relaxing bedroom", "How should I light a bedroom for relaxation", "What lighting is ideal for creating a relaxing bedroom atmosphere"],
+        "responses": ["A relaxing bedroom benefits from ambient and dimmable lighting, like pendant lights or soft overhead fixtures."]
+    },
+    {
+        "tag": "relaxing_bedroom_colors",
+        "patterns": ["Any specific color that helps create a relaxing atmosphere in bedrooms", "What bedroom colors promote relaxation", "What color schemes are ideal for a soothing bedroom"],
+        "responses": ["Soft, neutral colors like soothing blues, greens, or grays are known to create a relaxing atmosphere in bedrooms."]
+    },
+    {
+        "tag": "kitchen_counter_height",
+        "patterns": ["Any specific height that's universally considered perfect for kitchen counters", "What is the standard kitchen countertop height", "What height is ideal for kitchen counters"],
+        "responses": ["The universally considered perfect height for kitchen counters is around 36 inches."]
+    },
+    {
+        "tag": "standard_kitchen_countertop_height",
+        "patterns": ["Any standard measurement that hits the mark for kitchen countertop height", "What's the recommended kitchen countertop height", "What is the standard height for kitchen countertops"],
+        "responses": ["The standard measurement for ideal kitchen countertop height is approximately 36 inches."]
+    },
+    {
+        "tag": "recommended_basement_flooring",
+        "patterns": ["Any particular material that's recommended for basement floors", "What materials are recommended for basement flooring", "What type of flooring do you recommend for basements"],
+        "responses": ["Recommended materials for basement floors include moisture-resistant options like vinyl, ceramic tile, or engineered wood."]
+    },
+    {
+        "tag": "good_fit_for_basement_flooring",
+        "patterns": ["So, what flooring type is a good fit for basements", "What's a suitable choice for basement flooring", "What is recommended for basement flooring"],
+        "responses": ["Good fits for basement flooring include moisture-resistant options like vinyl, ceramic tile, or sealed concrete."]
+    },
+    {
+        "tag": "bedroom_ambiance_lighting",
+        "patterns": ["So, what type of lighting creates that perfect bedroom ambiance", "How can I create a perfect bedroom ambiance with lighting", "Tell me about bedroom ambiance lighting."],
+        "responses": ["To create a perfect bedroom ambiance, consider using soft, warm lighting, such as bedside lamps or wall sconces."]
+    },
+    {
+        "tag": "kitchen_countertop_height_measurement",
+        "patterns": ["Any specific measurements we're aiming for in the kitchen countertop department", "What's the ideal kitchen countertop measurement", "What measurement should I target for kitchen countertop height"],
+        "responses": ["Aim for a standard kitchen countertop height of around 36 inches for optimal functionality."]
+    },
+    {
+        "tag": "home_office_seating_styles",
+        "patterns": ["Any seating styles that are both comfy and work-friendly for a home office", "What are comfy and work-friendly seating options for a home office", "Tell me about home office seating styles."],
+        "responses": ["Comfy and work-friendly seating for a home office can include ergonomic chairs, cozy sofas, or stylish desk chairs."]
+    },
+    {
+        "tag": "kitchen_countertop_materials",
+        "patterns": ["Let's dive into kitchen design—what materials are making waves for countertops", "What materials are popular for kitchen countertops", "What countertop materials are trending in kitchen design"],
+        "responses": ["Materials making waves for kitchen countertops include quartz, granite, and butcher block."]
+    },
+    {
+        "tag": "sunlight_basking_locations",
+        "patterns": ["What locations are the MVPs for basking in sunlight", "Where can I enjoy sunlight at home", "Which spaces are best for soaking up sunlight"],
+        "responses": ["MVP locations for basking in sunlight at home include rooms with large windows, sunrooms, or outdoor spaces like patios."]
+    },
+    {
+        "tag": "slope_percentage_for_drainage",
+        "patterns": ["What's the slope percentage that ensures drainage perfection", "How much slope is needed for effective drainage", "What's the ideal slope percentage for drainage"],
+        "responses": ["The slope percentage that ensures drainage perfection varies but commonly ranges between 1% to 2%."]
+    },
+    {
+        "tag": "function_vs_circulation",
+        "patterns": ["What is the difference between function and circulation in a house design", "Explain the distinction between function and circulation in home design.", "Differentiate between function and circulation in architecture."],
+        "responses": ["The difference between function and circulation in house design lies in the purpose (function) and flow of movement (circulation) within the space."]
+    },
+    {
+        "tag": "importance_of_natural_ventilation",
+        "patterns": ["Why is natural ventilation important in house design", "What's the significance of natural ventilation in architectural design", "Explain the role of natural ventilation in home design."],
+        "responses": ["Natural ventilation is important in house design to promote air circulation, reduce indoor pollutants, and enhance overall comfort."]
+    },
+    {
+        "tag": "role_of_focal_point",
+        "patterns": ["What is the role of a focal point in architectural design", "Why are focal points important in architecture", "Explain the purpose of focal points in building design."],
+        "responses": ["The role of a focal point in architectural design is to draw attention and create visual interest within a space."]
+    },
+    {
+        "tag": "building_codes_impact",
+        "patterns": ["What is a building code, and how does it impact house design", "How do building codes affect architectural design", "Explain the influence of building codes on home design."],
+        "responses": ["Building codes are regulations that set standards for construction, ensuring safety, health, and welfare of occupants."]
+    },
+    {
+        "tag": "optimize_natural_light",
+        "patterns": ["How can you optimize natural light in a house design", "What strategies can be used to maximize natural light in architecture", "Tips for enhancing natural light in home design."],
+        "responses": ["To optimize natural light in house design, incorporate large windows, skylights, and light-colored interior finishes."]
+    },
+    {
+        "tag": "floor_plan_vs_elevation",
+        "patterns": ["What is the difference between a floor plan and an elevation", "Explain the distinction between floor plans and elevations in architecture.", "Differentiate between floor plan and elevation drawings."],
+        "responses": ["The difference between a floor plan and an elevation lies in their perspectives—the floor plan is a top-down view, while an elevation is a front or side view of a structure."]
+    },
+    {
+        "tag": "kitchen_layout_design",
+        "patterns": ["What are the key considerations in designing a kitchen layout", "What factors should I consider when planning a kitchen layout", "Explain the essential elements of kitchen layout design."],
+        "responses": ["Key considerations in designing a kitchen layout include workflow efficiency, storage needs, and the placement of appliances for convenience."]
+    },
+    {
+        "tag": "addressing_privacy_concerns",
+        "patterns": ["How can you address privacy concerns in a residential design", "What strategies can be used to ensure privacy in home design", "Tips for maintaining privacy in residential architecture."],
+        "responses": ["Use thoughtful placement of windows, landscaping, and design elements to create private zones within the house."]
+    },
+    {
+        "tag": "roof_in_residential_architecture",
+        "patterns": ["What is the purpose of a roof in residential architecture", "Why do houses have roofs", "Explain the significance of roofs in home design."],
+        "responses": ["The roof protects the interior from the elements, contributes to energy efficiency, and plays a significant role in the overall aesthetics of the house."]
+    },
+    {
+        "tag": "modern_vs_traditional_architecture",
+        "patterns": ["What is the difference between modern and traditional architectural styles", "Compare modern and traditional architecture.", "Explain the distinctions between modern and traditional building design."],
+        "responses": ["Modern architecture emphasizes simplicity, clean lines, and the use of new materials, while traditional styles draw from historical precedents, often featuring ornate details."]
+    },
+    {
+        "tag": "continuity_between_indoor_and_outdoor_spaces",
+        "patterns": ["How do you create a sense of continuity between indoor and outdoor spaces", "What techniques can be used to connect indoor and outdoor areas in architecture", "Tips for seamless indoor-outdoor transitions in home design."],
+        "responses": ["Use consistent materials, flooring, and design elements to visually connect indoor and outdoor areas, blurring the boundary between them."]
+    },
+    {
+        "tag": "shadow_study_in_architectural_design",
+        "patterns": ["What is the purpose of a shadow study in architectural design", "Why conduct a shadow study in architecture", "Explain the significance of shadow studies in building design."],
+        "responses": ["A shadow study helps analyze the impact of sunlight on the building, aiding in the placement of windows and the design of outdoor spaces."]
+    },
+    {
+        "tag": "inclusive_design_for_all_ages",
+        "patterns": ["How can you ensure a house design is inclusive for people of all ages", "What principles should be considered for age-inclusive design in home architecture", "Tips for creating inclusive housing designs."],
+        "responses": ["Consider universal design principles, providing features that accommodate a wide range of physical abilities and age groups."]
+    },
+    {
+        "tag": "circulation_patterns_in_residential_layout",
+        "patterns": ["What is the importance of circulation patterns in a residential layout", "Why are circulation patterns crucial in home design", "Explain the role of circulation in residential architecture."],
+        "responses": ["Well-planned circulation patterns improve the flow between spaces, enhancing functionality and user experience within the house."]
+    },
+    {
+        "tag": "landscaping_in_residential_design",
+        "patterns": ["What is the role of landscaping in residential design", "Why is landscaping important in home architecture", "Explain the significance of landscaping in house design."],
+        "responses": ["Landscaping enhances the overall aesthetic, provides outdoor living spaces, and contributes to environmental sustainability."]
+    },
+    {
+        "tag": "first_step_in_designing_a_house",
+        "patterns": ["What is the first step in designing a house", "How should I start the process of designing a home", "Explain the initial stages of home design."],
+        "responses": ["The first step is to understand the client's needs and requirements through a comprehensive client brief."]
+    },
+    {
+        "tag": "site_analysis_importance",
+        "patterns": ["What is a site analysis, and why is it important", "Why conduct a site analysis in architectural design", "Explain the significance of site analysis in building design."],
+        "responses": ["A site analysis assesses the physical, environmental, and contextual aspects of a site. It's crucial for informed design decisions and understanding site constraints."]
+    },
+    {
+        "tag": "zoning_regulations_impact",
+        "patterns": ["What is the significance of zoning regulations in house design", "How do zoning regulations affect architectural design", "Explain the impact of zoning laws on home design."],
+        "responses": ["Zoning regulations dictate land use, building height, setbacks, and other factors, influencing the design to comply with local laws."]
+    },
+    {
+        "tag": "local_climate_in_house_design",
+        "patterns": ["Why is it important to consider the local climate in house design", "How does the local climate impact architectural design", "Explain the role of climate in home design."],
+        "responses": ["Designing in response to the local climate improves energy efficiency and comfort, considering factors like temperature, humidity, and precipitation."]
+    },
+    {
+        "tag": "building_section_purpose",
+        "patterns": ["What is the purpose of a building section in architectural drawings", "Why do architects include building sections in their drawings", "Explain the role of a building section in architectural design."],
+        "responses": ["A building section provides a vertical cut through the building, showing details of the interior spaces, structure, and relationships between floors."]
+    },
+    {
+        "tag": "choosing_building_materials_for_climates",
+        "patterns": ["How do you choose the appropriate building materials for different climates", "What factors influence material selection in architecture for different climates", "Explain the criteria for choosing building materials based on climate."],
+        "responses": ["Consider climate-specific factors such as temperature variations, humidity levels, and resistance to weathering when selecting materials."]
+    },
+    {
+        "tag": "designing_for_natural_shading",
+        "patterns": ["How do you design for natural shading in a house", "What strategies can be used to incorporate natural shading into residential design", "Explain the principles of natural shading in architectural design."],
+        "responses": ["Use landscaping, overhangs, and strategically placed elements to provide natural shade and reduce heat gain in the building."]
+    },
+    {
+        "tag": "building_program_purpose",
+        "patterns": ["What is the purpose of a building program in the design process", "Why is a building program important in architectural design", "Explain the role of a building program in the early stages of a project."],
+        "responses": ["A building program outlines the functional and spatial requirements of a project, serving as a guide for the design team."]
+    },
+    {
+        "tag": "cultural_and_social_aspects_in_residential_design",
+        "patterns": ["Why is it important to consider the cultural and social aspects of a community in residential design", "How do cultural and social considerations influence architectural design", "Explain the role of cultural sensitivity in home design."],
+        "responses": ["Designing with cultural and social considerations fosters a sense of community, inclusivity, and cultural identity."]
+    },
+    {
+        "tag": "sun_path_analysis_purpose",
+        "patterns": ["What is the purpose of a sun path analysis in architectural design", "Why conduct a sun path analysis in architecture", "Explain the significance of sun path analysis in building design."],
+        "responses": ["A sun path analysis helps determine the sun's movement throughout the day and seasons, informing the placement of windows and shading devices."]
+    },
+    {
+        "tag": "balance_between_natural_and_artificial_lighting",
+        "patterns": ["How can you ensure a balance between natural and artificial lighting in a house", "What strategies are effective for balancing natural and artificial lighting in architecture", "Explain how to achieve a well-lit interior with both natural and artificial light sources."],
+        "responses": ["Use a combination of natural light sources, ambient lighting, and task lighting to create a well-lit and visually appealing interior."]
+    },
+    {
+        "tag": "cultural_sensitivity_in_material_selection",
+        "patterns": ["What role does cultural sensitivity play in the selection of building materials", "How do cultural considerations influence material choices in architecture", "Explain the significance of cultural sensitivity in material selection."],
+        "responses": ["Consider the cultural significance of materials, textures, and colors to respect and integrate local traditions into the design."]
+    },
+    {
+        "tag": "designing_multi_generational_home",
+        "patterns": ["What considerations are essential when designing a multi-generational home", "How do you design a house to accommodate multiple generations", "Explain the key factors in multi-generational home design."],
+        "responses": ["Prioritize flexible spaces, accessibility features, and privacy considerations to accommodate the diverse needs of multiple generations living together."]
+    },
+    {
+        "tag": "creating_openness_in_small_residential_space",
+        "patterns": ["How do you address the challenge of creating a sense of openness in a small residential space", "What strategies can be used to make small living areas feel open and spacious", "Explain how to design for openness in a compact home."],
+        "responses": ["Use open floor plans, multipurpose furniture, and strategic lighting to create the illusion of spaciousness in smaller living areas."]
+    },
+    {
+        "tag": "architectural_software_in_design",
+        "patterns": ["What role does architectural software play in the design and visualization of a residential project", "How does architectural software benefit the design process", "Explain the importance of software tools in architectural design."],
+        "responses": ["Architectural software enables accurate modeling, visualization, and communication of design ideas, streamlining the design process."]
+    },
+    {
+        "tag": "designing_for_hot_and_humid_climate",
+        "patterns": ["What considerations are important when designing a home for a hot and humid climate", "How do you address design challenges in hot and humid climates", "Explain the key principles in designing for hot and humid regions."],
+        "responses": ["Prioritize natural ventilation, use reflective materials, and incorporate shading devices to combat heat and humidity in the design."]
+    },
+    {
+        "tag": "designing_on_steep_slope",
+        "patterns": ["How can you address the challenge of designing a house on a steep slope", "What strategies are effective for building on steep slopes", "Explain how to optimize space and stability in steep slope residential design."],
+        "responses": ["Use terracing, retaining walls, and innovative foundation solutions to optimize the use of space and ensure structural stability on a steep slope."]
+    },
+    {
+        "tag": "concept_statement_in_design",
+        "patterns": ["What role does a concept statement play in the design process", "Why is a concept statement important in architectural design", "Explain the purpose of a design concept statement."],
+        "responses": ["A concept statement articulates the overarching idea and goals of a design, providing a clear guiding principle for the entire project."]
+    },
+    {
+        "tag": "passive_cooling_in_hot_climate",
+        "patterns": ["What considerations are important when designing a house with a focus on passive cooling in a hot climate", "How do you achieve passive cooling in hot climates through architectural design", "Explain the principles of passive cooling in hot climate home design."],
+        "responses": ["Maximize shade, encourage cross-ventilation, and use thermal mass to reduce reliance on mechanical cooling systems and create a comfortable indoor environment in hot climates."]
+    },
+    {
+        "tag": "site_analysis_in_architectural_planning",
+        "patterns": ["Could you explain the purpose of a site analysis in architectural planning", "Why is a site analysis important in the early stages of architectural design", "What does a site analysis involve in architectural planning"],
+        "responses": ["A site analysis evaluates physical, environmental, and contextual aspects of a location, guiding informed design decisions and recognizing site constraints."]
+    },
+    {
+        "tag": "zoning_regulations_impact_on_residential_houses",
+        "patterns": ["How do zoning regulations impact the design of residential houses", "What role do zoning laws play in residential architecture", "Explain the influence of zoning regulations on residential home design."],
+        "responses": ["Zoning regulations influence land use, building height, setbacks, and other factors, shaping the design to comply with local laws."]
+    },
+    {
+        "tag": "bubble_diagram_purpose",
+        "patterns": ["What's the purpose of a bubble diagram in the early design stages", "Why do architects use bubble diagrams in the initial phases of a project", "Explain the role of a bubble diagram in architectural design."],
+        "responses": ["A bubble diagram organizes and prioritizes spaces based on relationships and adjacencies without specifying sizes or shapes."]
+    },
+    {
+        "tag": "ensuring_accessibility_in_house_design",
+        "patterns": ["How can accessibility be ensured in a house design", "What measures should be taken to make homes accessible for all", "Explain the principles of designing accessible homes."],
+        "responses": ["Follow accessibility standards, including ramps, wide doorways, and accessible bathrooms for those with mobility challenges."]
+    },
+    {
+        "tag": "natural_ventilation_in_residential_design",
+        "patterns": ["What role does natural ventilation play in residential design", "Why is natural ventilation important in home architecture", "Explain the significance of natural airflow in residential homes."],
+        "responses": ["Natural ventilation enhances indoor air quality, reduces reliance on mechanical systems, and promotes energy efficiency."]
+    },
+    {
+        "tag": "optimizing_natural_light_in_residential_design",
+        "patterns": ["How can natural light be optimized in a residential design", "What strategies are effective for maximizing natural light in homes", "Explain how to create well-lit interiors using natural light sources."],
+        "responses": ["Use large windows, skylights, and light-colored materials to maximize natural light penetration and create a bright, inviting interior."]
+    },
+    {
+        "tag": "floor_plan_vs_elevation",
+        "patterns": ["What's the difference between a floor plan and an elevation", "How do floor plans and elevations differ in architectural drawings", "Explain the distinct purposes of floor plans and elevations in building design."],
+        "responses": ["A floor plan illustrates space layout on a horizontal plane, while an elevation depicts the vertical view of the building's exterior."]
+    },
+    {
+        "tag": "selecting_appropriate_materials_for_residential_projects",
+        "patterns": ["How can appropriate materials be selected for a residential project", "What factors should be considered when choosing materials for residential design elements", "Explain the criteria for material selection in residential architecture."],
+        "responses": ["Consider factors like durability, aesthetics, cost, and environmental impact when choosing materials for various design elements."]
+    },
+    {
+        "tag": "considerations_in_kitchen_layout_design",
+        "patterns": ["What considerations are key in designing a kitchen layout", "How should I plan a kitchen layout effectively", "Explain the essential factors in kitchen layout design."],
+        "responses": ["Prioritize functionality, efficient workflow, and safety, taking into account storage, counter space, and appliance placement."]
+    },
+    {
+        "tag": "designing_for_flexibility_in_residential_homes",
+        "patterns": ["Why is it important to design for flexibility in a house", "How can you create adaptable living spaces in residential design", "Explain the role of flexibility in home architecture."],
+        "responses": ["Designing for flexibility allows spaces to adapt to changing needs, accommodating different lifestyles and activities over time."]
+    },
+    {
+        "tag": "achieving_harmonious_color_schemes_in_residential_design",
+        "patterns": ["How is a harmonious color scheme achieved in residential design", "What strategies are effective for creating cohesive color palettes in homes", "Explain how to achieve pleasing color schemes in residential architecture."],
+        "responses": ["Use the color wheel and consider psychological effects to create a cohesive and pleasing palette that aligns with the client's preferences."]
+    },
+    {
+        "tag": "landscaping_in_residential_design",
+        "patterns": ["What role does landscaping play in residential design", "Why is landscaping important in home architecture", "Explain the significance of landscaping in house design."],
+        "responses": ["Landscaping enhances aesthetics, provides outdoor living spaces, and contributes to environmental sustainability."]
+    },
+    {
+        "tag": "privacy_in_residential_design",
+        "patterns": ["How can privacy concerns be addressed in residential design", "What strategies ensure privacy in home architecture", "Explain the methods for creating private spaces in houses."],
+        "responses": ["Use strategic window placement, landscaping, and design elements to create private zones within the house."]
+    },
+    {
+        "tag": "purpose_of_roof_in_residential_architecture",
+        "patterns": ["What's the purpose of a roof in residential architecture", "Why do houses have roofs", "Explain the role of a roof in home design."],
+        "responses": ["The roof protects the interior, contributes to energy efficiency, and plays a significant role in the overall aesthetics of the house."]
+    },
+    {
+        "tag": "considering_future_expansions_in_design_phase",
+        "patterns": ["Why is it important to consider future expansions or renovations in the initial design phase", "How does designing with flexibility benefit residential projects", "Explain the role of flexibility in initial home design."],
+        "responses": ["Designing with flexibility allows for easier future expansions or renovations without compromising the overall structure."]
+    },
+    {
+        "tag": "cultural_sensitivity_in_material_selection",
+        "patterns": ["What role does cultural sensitivity play in the selection of building materials", "How do cultural considerations influence material choices in architecture", "Explain the significance of cultural sensitivity in material selection."],
+        "responses": ["Consider the cultural significance of materials, textures, and colors to respect and integrate local traditions into the design."]
+    },
+    {
+        "tag": "initial_step_in_creating_house_design",
+        "patterns": ["What's the initial step in creating a house design", "How does the design process start in residential architecture", "Explain the first phase of house design."],
+        "responses": ["Begin by comprehensively understanding the client's needs and requirements through a detailed client brief."]
+    },
+    {
+        "tag": "factors_influencing_material_selection_for_residential_projects",
+        "patterns": ["What factors influence the selection of materials for a residential project", "How do you choose materials for residential design elements", "Explain the criteria for material selection in residential architecture."],
+        "responses": ["Consider durability, aesthetics, cost, and environmental impact when choosing materials for various design elements."]
+    },
+    {
+        "tag": "integrating_sustainable_principles_in_residential_projects",
+        "patterns": ["What strategies can be employed to integrate sustainable principles into a residential project", "How can homes be designed with sustainability in mind", "Explain sustainable practices in residential architecture."],
+        "responses": ["Utilize energy-efficient materials, explore passive solar design, and incorporate renewable energy sources to minimize environmental impact."]
+    },
+    {
+        "tag": "optimal_sunlight_exposure",
+        "patterns": ["Where is the best location for optimal sunlight exposure", "How do you position a house for maximum sunlight exposure", "Explain the ideal orientation for sunlight exposure in residential design."],
+        "responses": ["The best location for optimal sunlight exposure is typically on the south side of a building."]
+    },
+    {
+        "tag": "ideal_distance_between_buildings_for_privacy",
+        "patterns": ["What is the ideal distance between buildings for privacy", "How far apart should buildings be for privacy", "Explain the recommended distance between neighboring structures for privacy."],
+        "responses": ["The ideal distance between buildings for privacy can vary but is influenced by factors like local building codes, zoning regulations, and individual preferences."]
+    },
+    {
+        "tag": "room_near_main_entrance",
+        "patterns": ["Which room is usually near the main entrance", "What room is typically located near the front door in homes", "Explain the common placement of rooms near the main entrance."],
+        "responses": ["The living room is typically located near the main entrance of a house."]
+    },
+    {
+        "tag": "space-saving_furniture_for_small_bedrooms",
+        "patterns": ["What is a space-saving furniture solution for small bedrooms", "How can you optimize space in compact bedrooms", "Explain furniture choices for small bedroom design."],
+        "responses": ["A Murphy bed is a space-saving furniture solution for small bedrooms."]
+    },
+    {
+        "tag": "maximizing_vertical_space_in_closets",
+        "patterns": ["What storage solution maximizes vertical space in a closet", "How can closet space be optimized for storage", "Explain effective storage solutions for closets in homes."],
+        "responses": ["Shelves are a storage solution that maximizes vertical space in a closet."]
+    },
+    {
+        "tag": "easy_to_clean_flooring_in_high_traffic_areas",
+        "patterns": ["What type of flooring is easy to clean in high-traffic areas", "How can you choose flooring for areas with heavy foot traffic", "Explain the best flooring options for high-traffic spaces."],
+        "responses": ["Tile flooring is easy to clean and maintain in high-traffic areas."]
+    },
+    {
+        "tag": "preferred_slope_percentage_for_effective_drainage",
+        "patterns": ["What is the preferred slope percentage for effective drainage", "How steep should the slope be for proper drainage", "Explain the recommended gradient for efficient water drainage."],
+        "responses": ["The preferred slope percentage for effective drainage is around 2% to 3%."]
+    },
+    {
+        "tag": "defining_zones_in_open_floor_plan",
+        "patterns": ["In an open floor plan, what defines different zones without walls", "How can you create distinct areas in an open-concept space", "Explain methods for defining zones in open floor plans."],
+        "responses": ["Area rugs can define different zones in an open floor plan without using walls."]
+    },
+    {
+        "tag": "architectural_style_emphasizing_open_floor_plans",
+        "patterns": ["Which architectural style emphasizes open floor plans and large windows", "What architectural design style favors open-concept living", "Explain the characteristics of architectural styles that prioritize open floor plans."],
+        "responses": ["Modern architecture often emphasizes open floor plans and large windows."]
+    },
+    {
+        "tag": "standard_residential_ceiling_height",
+        "patterns": ["What is the ideal height for a standard residential ceiling", "How high should a residential ceiling be", "Explain the recommended height for home ceilings."],
+        "responses": ["The ideal height for a standard residential ceiling is typically around 8 feet (2.44 meters)."]
+    },
+    {
+        "tag": "circulation_in_space_planning",
+        "patterns": ["In space planning, what does 'circulation' refer to", "Define circulation in the context of space planning.", "Explain the concept of circulation in architectural design."],
+        "responses": ["In space planning, 'circulation' refers to the movement within a space, including pathways and flow."]
+    },
+    {
+        "tag": "ground_floor_laundry_room",
+        "patterns": ["Which room is typically located on the ground floor for accessibility", "Why is the laundry room often on the ground floor", "Explain the placement of the laundry room in home design."],
+        "responses": ["The laundry room is typically located on the ground floor for accessibility."]
+    },
+    {
+        "tag": "purpose_of_zoning_plan",
+        "patterns": ["What is the purpose of a zoning plan in architectural design", "Why do architects use zoning plans", "Explain the role of zoning plans in building design."],
+        "responses": ["The purpose of a zoning plan in architectural design is the division of spaces for specific functions and activities."]
+    },
+    {
+        "tag": "importance_of_site_analysis_in_early_design",
+        "patterns": ["Why is site analysis important in the early stages of design", "What role does site analysis play in initial design phases", "Explain the significance of site analysis in architectural planning."],
+        "responses": ["Site analysis is important in the early stages of design to understand environmental factors that can influence the design."]
+    },
+    {
+        "tag": "architectural_feature_for_natural_ventilation_and_daylighting",
+        "patterns": ["Which architectural feature provides natural ventilation and daylighting", "How can architecture enhance natural light and ventilation", "Explain the role of architectural elements in promoting natural light and airflow."],
+        "responses": ["A skylight is an architectural feature that provides natural ventilation and daylighting."]
+    },
+    {
+        "tag": "recommended_proportion_of_window_area_for_daylighting",
+        "patterns": ["What is the recommended proportion of window area to floor area for good daylighting", "How can you calculate the window-to-floor ratio for effective daylighting", "Explain the ideal window-to-floor area ratio for maximizing natural light."],
+        "responses": ["The recommended proportion of window area to floor area for good daylighting is typically 15-20%."]
+    },
+    {
+        "tag": "significance_of_golden_ratio_in_architecture",
+        "patterns": ["What is the significance of the 'golden ratio' in architecture", "How is the golden ratio used in architectural design", "Explain the aesthetic importance of the golden ratio in buildings."],
+        "responses": ["The 'golden ratio' is used in architecture for aesthetic harmony and pleasing proportions."]
+    },
+    {
+        "tag": "work_triangle_in_kitchen_design",
+        "patterns": ["In kitchen design, what does the term 'work triangle' refer to", "How does the work triangle concept apply to kitchen layout", "Explain the role of the work triangle in efficient kitchen design."],
+        "responses": ["In kitchen design, the 'work triangle' refers to the relationship between the stove, sink, and refrigerator."]
+    },
+    {
+        "tag": "common_flooring_in_living_rooms",
+        "patterns": ["What type of flooring is commonly found in living rooms", "What flooring materials are popular for living areas", "Explain the common choices for living room flooring."],
+        "responses": ["Carpet, hardwood, or laminate flooring is commonly found in living rooms."]
+    },
+    {
+        "tag": "suitable_lighting_for_bedrooms",
+        "patterns": ["What kind of lighting is suitable for a bedroom", "How should bedrooms be lit for comfort", "Explain the appropriate bedroom lighting options."],
+        "responses": ["Soft and ambient lighting, such as bedside lamps or wall sconces, is suitable for a bedroom."]
+    },
+    {
+        "tag": "wall_color_for_calm_atmosphere_in_bedroom",
+        "patterns": ["Which wall color creates a calm atmosphere in a bedroom", "How can bedroom wall colors influence mood", "Explain the use of wall colors in creating a tranquil bedroom."],
+        "responses": ["Soft and muted colors like blues, greens, or neutral tones create a calm atmosphere in a bedroom."]
+    },
+    {
+        "tag": "recommended_height_for_kitchen_countertops",
+        "patterns": ["What is the recommended height for kitchen countertops", "How high should kitchen counters be", "Explain the standard kitchen countertop height."],
+        "responses": ["The standard height for kitchen countertops is around 36 inches."]
+    },
+    {
+        "tag": "common_materials_for_kitchen_countertops",
+        "patterns": ["What material is frequently used for kitchen countertops", "Which materials are popular for kitchen counter surfaces", "Explain the common choices for kitchen countertop materials."],
+        "responses": ["Granite, quartz, marble, and laminate are frequently used materials for kitchen countertops."]
+    },
+    {
+        "tag": "seating_for_home_office",
+        "patterns": ["What type of seating is appropriate for a home office", "How can I choose comfortable seating for a home workspace", "Explain the suitable home office chair options."],
+        "responses": ["A comfortable and ergonomic chair, along with a desk, is appropriate for a home office."]
+    },
+    {
+        "tag": "color_scheme_in_modern_kitchens",
+        "patterns": ["Which color scheme is often used in modern kitchens", "What are the preferred colors for contemporary kitchen design", "Explain the color palettes commonly seen in modern kitchen interiors."],
+        "responses": ["Modern kitchens often feature a neutral color scheme with accents of bold or contrasting colors."]
+    },
+    {
+        "tag": "essential_furniture_in_dining_room",
+        "patterns": ["What essential furniture belongs in a dining room", "List the must-have furniture for a dining room.", "Explain the necessary furnishings for a dining area."],
+        "responses": ["A dining table and chairs are essential furniture in a dining room."]
+    },
+    {
+        "tag": "space-efficient_staircase",
+        "patterns": ["Which staircase type is space-efficient", "What is a space-saving staircase", "Explain space-efficient staircase designs."],
+        "responses": ["A spiral staircase is often considered space-efficient."]
+    },
+    {
+        "tag": "purpose_of_reading_nook",
+        "patterns": ["What is the main purpose of a reading nook", "Why have a reading nook in a home", "Explain the function of a reading nook."],
+        "responses": ["The main purpose of a reading nook is to provide a comfortable and quiet space for reading and relaxation."]
+    },
+    {
+        "tag": "bed_type_for_small_bedroom",
+        "patterns": ["Which bed type is suitable for a small bedroom", "What kind of bed is ideal for a compact bedroom", "Explain the best bed options for small rooms."],
+        "responses": ["A platform bed or a loft bed is suitable for a small bedroom."]
+    },
+    {
+        "tag": "optimal_sunlight_exposure_location",
+        "patterns": ["Where is the best location for optimal sunlight exposure", "How can I maximize natural light in a building", "Explain the ideal sunlight exposure for a property."],
+        "responses": ["The best location for optimal sunlight exposure is typically on the south side of a building in the Northern Hemisphere and on the north side in the Southern Hemisphere."]
+    },
+    {
+        "tag": "ideal_distance_between_buildings_for_privacy",
+        "patterns": ["What is the ideal distance between buildings for privacy", "How far apart should buildings be for privacy", "Explain the recommended building separation for privacy."],
+        "responses": ["The ideal distance between buildings for privacy varies, but a general guideline is to have buildings spaced at least half the height of the taller building apart."]
+    },
+    {
+        "tag": "recommended_proportion_of_window_area_for_daylighting",
+        "patterns": ["What is the recommended proportion of window area to floor area for good daylighting", "How much window space should be allocated for natural light", "Explain the window-to-floor area ratio for daylighting."],
+        "responses": ["A common recommendation is to have windows that make up about 15-20% of the floor area for good daylighting."]
+    },
+    {
+        "tag": "significance_of_golden_ratio_in_architecture",
+        "patterns": ["What is the significance of the 'golden ratio' in architecture", "How is the golden ratio used in architectural design", "Explain the role of the golden ratio in building aesthetics."],
+        "responses": ["The golden ratio is a mathematical proportion often used in architecture for creating aesthetically pleasing and harmonious designs."]
+    },
+    {
+        "tag": "work_triangle_in_kitchen_design",
+        "patterns": ["In kitchen design, what does the term 'work triangle' refer to", "How does the work triangle concept apply to kitchen layout", "Explain the role of the work triangle in efficient kitchen design."],
+        "responses": ["In kitchen design, the 'work triangle' refers to the efficient placement of the stove, refrigerator, and sink, forming a triangular layout to optimize workflow."]
+    },
+    {
+        "tag": "factors_for_keeping_house_cool_in_hot_climate",
+        "patterns": ["What factors should be taken into account when designing a house to keep it cool in a hot climate", "How can I design a home for hot climates", "Explain the considerations for maintaining a cool house in a warm environment."],
+        "responses": ["Factors include orientation, shading, insulation, ventilation, and the use of cool roofing materials."]
+    },
+    {
+        "tag": "importance_of_site_analysis_in_planning",
+        "patterns": ["Can you describe why analyzing the site is important when planning a building", "Why is site analysis crucial in architectural planning", "Explain the significance of site analysis in the early design stages."],
+        "responses": ["Site analysis helps architects understand the physical and environmental characteristics of a site, influencing design decisions and ensuring the building harmonizes with its surroundings."]
+    },
+    {
+        "tag": "impact_of_zoning_regulations_on_house_design",
+        "patterns": ["How do regulations about how land can be used affect the design of houses", "Explain the influence of zoning regulations on residential architecture.", "How do zoning laws shape house designs"],
+        "responses": ["Zoning regulations and land-use restrictions influence the size, height, setbacks, and overall design of houses to comply with local codes."]
+    },
+    {
+        "tag": "purpose_of_bubble_diagram_in_early_design",
+        "patterns": ["What is the purpose of using a bubble diagram early in the design process", "How are bubble diagrams used in architectural planning", "Explain the role of bubble diagrams in early design phases."],
+        "responses": ["A bubble diagram is a visual representation used to explore and organize spatial relationships and functional adjacencies in the early stages of design."]
+    },
+    {
+        "tag": "designing_for_accessibility_in_houses",
+        "patterns": ["How can you make sure a house design is accessible to everyone", "What are the key principles of accessible house design", "Explain the considerations for designing a universally accessible home."],
+        "responses": ["Designing with universal design principles, incorporating ramps and elevators, and ensuring wider doorways and clear circulation paths make a house accessible to everyone."]
+    },
+    {
+        "tag": "significance_of_natural_ventilation_in_residential_design",
+        "patterns": ["What is the significance of incorporating natural ventilation into residential design", "How does natural ventilation impact home design", "Explain the importance of natural airflow in residential architecture."],
+        "responses": ["Natural ventilation promotes air circulation, reduces reliance on mechanical systems, and enhances indoor air quality, contributing to sustainable and comfortable residential design."]
+    },
+    {
+        "tag": "maximize_natural_light_in_house_design",
+        "patterns": ["How can you maximize natural light in the design of a house", "What strategies enhance natural light in house design", "Explain methods for optimizing natural light in residential architecture."],
+        "responses": ["Using large windows, skylights, light-colored interior finishes, and open floor plans can maximize natural light in a house."]
+    },
+    {
+        "tag": "distinction_between_floor_plan_and_elevation",
+        "patterns": ["What distinguishes a floor plan from an elevation in architectural drawings", "Explain the difference between floor plans and elevations.", "How are floor plans and elevations different in architectural design"],
+        "responses": ["A floor plan is a horizontal view showing the layout of spaces, while an elevation is a vertical view showing the exterior façade of a building."]
+    },
+    {
+        "tag": "selecting_materials_for_residential_project",
+        "patterns": ["How do you go about selecting suitable materials for a residential project", "What factors influence material selection in residential design", "Explain the considerations for choosing materials in residential architecture."],
+        "responses": ["Considerations include functionality, aesthetics, durability, cost, and sustainability when selecting materials for a residential project."]
+    },
+    {
+        "tag": "crucial_factors_in_kitchen_layout_planning",
+        "patterns": ["What factors are crucial when planning the layout of a kitchen", "How should I plan the layout of a kitchen for optimal functionality", "Explain the key considerations in kitchen layout design."],
+        "responses": ["Factors include the work triangle, storage needs, appliance placement, and creating a functional and ergonomic layout."]
+    },
+    {
+        "tag": "importance_of_designing_with_flexibility",
+        "patterns": ["Why is it important to design a house with flexibility in mind", "How does flexibility in design benefit homeowners", "Explain the significance of adaptable design in residential architecture."],
+        "responses": ["Designing with flexibility allows for future changes or adaptations to meet evolving needs and preferences without major renovations."]
+    },
+    {
+        "tag": "achieving_a_balanced_color_scheme_in_home_design",
+        "patterns": ["How is a balanced color scheme achieved in the design of a home", "What principles guide color schemes in residential design", "Explain the role of color harmony in house aesthetics."],
+        "responses": ["A balanced color scheme is achieved by using a combination of complementary or analogous colors in a way that creates visual harmony throughout the home."]
+    },
+    {
+        "tag": "role_of_landscaping_in_residential_design",
+        "patterns": ["What role does landscaping play in the overall design of a residence", "How does landscaping contribute to home aesthetics", "Explain the importance of landscaping in residential architecture."],
+        "responses": ["Landscaping enhances the aesthetic appeal of a residence, provides outdoor living spaces, and contributes to environmental sustainability."]
+    },
+    {
+        "tag": "addressing_privacy_concerns_in_home_design",
+        "patterns": ["How can privacy concerns be addressed in the design of a home", "What strategies ensure privacy in residential architecture", "Explain how to create private zones within a house design."],
+        "responses": ["Strategically placing windows, using landscaping, and thoughtful room layout can address privacy concerns in the design of a home."]
+    },
+    {
+        "tag": "purpose_of_roof_in_residential_architecture",
+        "patterns": ["What is the purpose of a roof in residential architecture", "How does the roof contribute to home design", "Explain the role of the roof in houses."],
+        "responses": ["The roof in residential architecture serves to protect the interior from weather elements, provide insulation, and contribute to the overall aesthetic of the house."]
+    },
+    {
+        "tag": "considering_future_expansions_or_renovations_in_initial_design",
+        "patterns": ["Why is it important to consider potential future expansions or renovations in the initial design", "How does forward-thinking design benefit homeowners", "Explain the value of planning for future changes in architectural design."],
+        "responses": ["Considering future expansions or renovations in the initial design allows for a more adaptable and sustainable building, saving costs and minimizing disruptions later."]
+    },
+    {
+        "tag": "influence_of_cultural_sensitivity_on_material_selection",
+        "patterns": ["How does cultural sensitivity influence the choice of building materials", "What role does cultural awareness play in material selection", "Explain how culture impacts the choice of materials in architecture."],
+        "responses": ["Cultural sensitivity influences the choice of building materials by considering local traditions, climate, and the availability of materials that resonate with the cultural context."]
+    },
+    {
+        "tag": "first_step_in_creating_design_for_a_house",
+        "patterns": ["What is the first step in the process of creating a design for a house", "How do architects initiate the design of a residence", "Explain the initial stages of house design."],
+        "responses": ["The first step is typically a thorough understanding of the client's needs, site analysis, and establishing design goals and constraints."]
+    },
+    {
+        "tag": "factors_in_material_selection_for_residential_project",
+        "patterns": ["What factors play a role in deciding which materials to use for a residential project", "How are materials chosen for different elements of a home", "Explain the considerations in material selection for residential architecture."],
+        "responses": ["Factors include the intended use, climate, durability, cost, aesthetics, and sustainability when deciding which materials to use for a residential project."]
+    },
+    {
+        "tag": "strategies_for_incorporating_sustainable_principles_in_residential_project",
+        "patterns": ["What strategies can be implemented to incorporate sustainable principles into a residential project", "How can residential architecture promote sustainability", "Explain how to design an eco-friendly residential project."],
+        "responses": ["Strategies include energy-efficient design, use of sustainable materials, rainwater harvesting, green roofs, and renewable energy sources to minimize environmental impact in a residential project."]
+    },
+    {
+        "tag": "key_stages_in_construction_process_of_a_house",
+        "patterns": ["What are the key stages in the construction process of a house", "How is a house built from start to finish", "Explain the stages involved in constructing a residential building."],
+        "responses": ["The construction process of a house typically involves stages such as site preparation, foundation construction, framing, enclosure (roofing and siding), interior and exterior finishing, and final inspections."]
+    },
+    {
+        "tag": "ensuring_structural_soundness_and_building_code_compliance",
+        "patterns": ["How do architects ensure that a house is structurally sound and meets building codes", "What steps are taken to ensure the safety of a residential structure", "Explain the role of architects in ensuring structural integrity in home design."],
+        "responses": ["Architects work closely with structural engineers to design a house that complies with building codes. They specify appropriate materials, dimensions, and construction methods to ensure structural integrity and safety."]
+    },
+    {
+        "tag": "role_of_foundation_in_stability_of_a_house",
+        "patterns": ["What role does the foundation play in the stability of a house, and what are common types of foundations", "How does the foundation impact the structural integrity of a residence", "Explain the significance of the foundation in residential construction."],
+        "responses": ["The foundation supports the entire structure. Common types include slab-on-grade, crawl space, and full basement foundations. The choice depends on factors such as soil conditions, climate, and local building practices."]
+    },
+    {
+        "tag": "impact_of_construction_materials_on_durability_and_energy_efficiency",
+        "patterns": ["How do construction materials impact the durability and energy efficiency of a house", "What is the role of building materials in home longevity", "Explain the relationship between materials and the performance of a residential building."],
+        "responses": ["Construction materials significantly affect a house's durability and energy efficiency. Choosing high-quality, weather-resistant materials and incorporating energy-efficient features contribute to the long-term performance of the building."]
+    },
+    {
+        "tag": "purpose_of_framing_in_house_construction",
+        "patterns": ["What is the purpose of framing in house construction, and what materials are commonly used", "Why is framing essential in building a residence", "Explain the role of framing in residential architecture."],
+        "responses": ["Framing provides the structural framework for a house. Common materials include wood, steel, or engineered wood products. The choice depends on factors like design requirements, budget, and local building practices."]
+    },
+    {
+        "tag": "importance_of_roofing_and_siding_in_protecting_a_house",
+        "patterns": ["How is the installation of roofing and siding crucial for protecting a house from the elements", "Why are roofing and siding important in home construction", "Explain the role of roofing and siding in residential architecture."],
+        "responses": ["Roofing and siding serve as the protective envelope of a house, shielding it from weather conditions. Proper installation is essential to prevent water infiltration, maintain energy efficiency, and enhance the overall durability of the structure."]
+    },
+    {
+        "tag": "considerations_in_selecting_windows_and_doors_for_a_house",
+        "patterns": ["What considerations are involved in selecting windows and doors for a house", "How do architects choose appropriate windows and doors for homes", "Explain the factors that architects consider in window and door selection."],
+        "responses": ["Window and door selection involves factors such as energy efficiency, security, aesthetics, and local climate. Architects consider these aspects to ensure proper ventilation, natural light, and visual appeal while maintaining functionality."]
+    },
+    {
+        "tag": "designing_for_optimal_natural_lighting_and_ventilation",
+        "patterns": ["How can design a house to optimize natural lighting and ventilation", "What strategies improve natural light and airflow in residential architecture", "Explain how architects enhance natural lighting and ventilation in homes."],
+        "responses": ["Architects strategically position windows, skylights, and ventilation openings to maximize natural light and airflow. This not only enhances the living experience but also contributes to energy efficiency by reducing the reliance on artificial lighting and HVAC systems."]
+    },
+    {
+        "tag": "designing_for_adaptability_in_spaces",
+        "patterns": ["How can design for adaptability, considering that space needs may evolve over time", "What is adaptable design in residential architecture", "Explain the concept of adaptable spaces in home design."],
+        "responses": ["Designing for adaptability involves incorporating flexible elements, such as movable partitions, modular furniture, and versatile layouts. This allows spaces to be easily reconfigured to accommodate changing needs and ensures the longevity of the design."]
+    },
+    {
+        "tag": "balancing_privacy_and_collaboration_in_space_design",
+        "patterns": ["In what ways can architects address the challenge of designing for both privacy and collaboration within a space", "How do architects create spaces that balance privacy and teamwork", "Explain the design strategies for versatile spaces that support privacy and collaboration."],
+        "responses": ["Designing for privacy and collaboration involves thoughtful spatial zoning, strategic placement of partitions, and the use of flexible furniture. Architects must strike a balance to create spaces that support both focused work and collaborative activities."]
+    },
+    {
+        "tag": "enhancing_spatial_design_with_natural_elements",
+        "patterns": ["How can the incorporation of natural elements, such as light and greenery, enhance spatial design", "What is biophilic design in architecture", "Explain the role of natural elements in improving spatial quality."],
+        "responses": ["Integrating natural elements contributes to a more vibrant and comfortable environment. Architects can use natural light, indoor plants, and views to the outdoors to create a connection between the built environment and the natural world, enhancing the overall spatial quality."]
+    },
+    {
+        "tag": "considerations_for_accessible_spaces",
+        "patterns": ["What considerations should architects keep in mind when designing spaces for accessibility and inclusivity", "How to design spaces to be accessible and inclusive", "Explain the principles of inclusive architecture."],
+        "responses": ["Designing for accessibility involves ensuring that spaces are usable by individuals of all abilities. Architects must consider factors such as ramps, elevators, and clear circulation paths to create an inclusive environment that accommodates diverse users."]
+    },
+    {
+        "tag": "key_considerations_in_selecting_house_site",
+        "patterns": ["What are the key considerations in selecting a suitable site for constructing a house", "How to choose the right location for a house", "Explain the site selection process for residential construction."],
+        "responses": ["Selecting a suitable site involves evaluating factors such as soil conditions, topography, climate, and local regulations. The goal is to ensure a stable foundation and optimal environmental performance."]
+    },
+    {
+        "tag": "importance_of_well_designed_foundation",
+        "patterns": ["What is the significance of a well-designed foundation in house construction", "Why is a well-planned foundation important for a house", "Explain the role of foundations in residential architecture."],
+        "responses": ["A well-designed foundation provides structural stability and prevents settling issues. It distributes the load of the house evenly to the ground, ensuring long-term durability and minimizing the risk of structural problems."]
+    },
+    {
+        "tag": "sustainable_design_principles_in_residential_construction",
+        "patterns": ["Can you explain the basic principles of sustainable design in residential construction", "What are the fundamental principles of eco-friendly design in home construction", "Explain sustainability in residential architecture."],
+        "responses": ["Sustainable design in residential construction focuses on minimizing environmental impact, optimizing energy efficiency, and using eco-friendly materials. It involves strategies like passive solar design, efficient insulation, and the use of renewable energy sources."]
+    },
+    {
+        "tag": "role_of_zoning_in_residential_building",
+        "patterns": ["What role does zoning play in the planning and construction of residential buildings", "How do zoning regulations affect house construction", "Explain zoning's impact on residential architecture."],
+        "responses": ["Zoning regulations dictate how land can be used, including residential construction. Understanding and adhering to zoning codes ensure that the design and construction of a house comply with local laws, promoting safety and community planning."]
+    },
+    {
+        "tag": "common_challenges_in_construction_process",
+        "patterns": ["What are some common challenges faced during the construction process, and how can they be addressed", "Discuss typical construction challenges and their solutions.", "Explain how to overcome common construction issues."],
+        "responses": ["Common challenges include unexpected site conditions, weather delays, and coordination issues. Addressing these challenges requires thorough planning, effective communication, and the ability to adapt to unforeseen circumstances."]
+    },
+    {
+        "tag": "role_of_building_codes_in_residential_construction",
+        "patterns": ["How do building codes contribute to the safety and quality of residential construction", "Explain the importance of building codes in house construction.", "Discuss the role of building codes in ensuring residential safety."],
+        "responses": ["Building codes establish minimum standards for construction, ensuring safety, durability, and accessibility. Compliance with these codes is crucial for safeguarding occupants and maintaining the overall quality of residential structures."]
+    },
+    {
+        "tag": "influence_of_technology_on_house_construction",
+        "patterns": ["In what ways does technology influence modern house construction, and what are some notable advancements", "Explore the impact of technology on contemporary home construction.", "Explain technological advancements in residential building."],
+        "responses": ["Technology, such as Building Information Modeling (BIM) and automation, enhances efficiency and sustainability in modern house construction."]
+    },
+    {
+        "tag": "impact_of_material_choice_on_residential_structure",
+        "patterns": ["How does the choice of materials impact the overall performance and aesthetics of a residential structure", "Discuss the significance of material selection in house construction.", "Explain the influence of materials on the functionality and appearance of a residence."],
+        "responses": ["Material selection influences factors like durability, energy efficiency, and the visual appeal of a house. Choosing appropriate materials is essential for achieving the desired architectural design, meeting performance requirements, and ensuring long-term functionality."]
+    },
+    {
+        "tag": "project_management_for_residential_construction",
+        "patterns": ["What are the key steps involved in project management for residential construction, and how do they contribute to successful project completion", "Discuss the project management process for building houses.", "Explain the importance of effective project management in residential construction."],
+        "responses": ["Project management involves planning, scheduling, budgeting, and overseeing the construction process. Effective project management ensures that the project stays on track, meets deadlines, stays within budget, and ultimately results in a successfully completed residential structure."]
+    },
+    {
+        "tag": "construction_methods_in_jordan_and_technology",
+        "patterns": ["What construction methods are commonly used in Jordan, and how do they impact the design process", "Discuss construction practices in Jordan and their influence on architectural design.", "Explain the role of technology in optimizing construction in Jordan."],
+        "responses": ["Construction methods in Jordan vary, including reinforced concrete and traditional masonry. Understanding these methods helps architects optimize designs for local construction practices. Technology, such as Building Information Modeling (BIM) and advanced construction methods, enhances efficiency and accuracy in the design and construction of houses."]
+    }
+]
+}
